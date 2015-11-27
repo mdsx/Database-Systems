@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> New Student Form HTML Page </title>
+<style type="text/css">
+h1 {text-align: center; color: blue}
+h2 {font-family: Ariel, sans-serif; text-align: left; color: blue}
+p.footer {text-align: center}
+table.output {font-family: Ariel, sans-serif}
+</style>
+</head>
+
+<body>
+<form action="insertNewStudent.php" method="POST">
+ <!-- Page Headers -->
+ <h1> New University Student Form </h1>
+ <hr />
+ <br />
+ <p> <b> Enter Student ID, Birth Date, Last Name, First Name, and Phone Number: </b> </p>
+ <table>
+ <tr>
+ <td>&nbsp;Student ID:&nbsp;&nbsp;</td>
+ <td><input type="text" name="student_id" size="5" />
+ </td>
+ </tr>
+ <tr>
+ <td>&nbsp;Birth Date:&nbsp;&nbsp;</td>
+ <td><input type="text" name="birth_date" size="10" />
+ </td>
+ </tr>
+ <tr>
+ <td>&nbsp;Last Name:&nbsp;&nbsp;</td>
+ <td><input type="text" name="last_name" size="25" />
+ </td>
+ </tr>
+ <tr>
+ <td>&nbsp;First Name:&nbsp;&nbsp;</td>
+ <td><input type="text" name="first_name" size="25" />
+ </td>
+ </tr>
+ <tr>
+ <td>&nbsp;Phone Number:&nbsp;&nbsp;</td>
+ <td><input type="text" name="phone" size="10" />
+ </td>
+ </tr>
+ </table>
+ <p> <b>Enter Student Street Address, City, State and ZIP Code:</b> </p>
+ <table>
+ <tr>
+ <td>&nbsp;Street Address:&nbsp;&nbsp;</td>
+ <td><input type="text" name="street" size="50" />
+ </td>
+ </tr>
+ <tr>
+ <td>&nbsp;City:&nbsp;&nbsp;</td>
+ <td><input type="text" name="city" size="25" />
+ </td>
+ </tr>
+ <tr>
+ <td>&nbsp;State:&nbsp;&nbsp;</td>
+ <td><input type="text" name="state" size="2" />
+ </td>
+ </tr>
+ <tr>
+ <td>&nbsp;ZIP Code:&nbsp;&nbsp;</td>
+ <td><input type="text" name="zip" size="5" />
+ </td>
+ </tr>
+ </table>
+ <p> <b>Enter Student Start Term, Major ID, and Student Type:</b> </p>
+ <table>
+ <tr>
+ <td>&nbsp;Start Term:&nbsp;&nbsp;</td>
+ <td><input type="text" name="start_term" size="4" />
+ </td>
+ </tr>
+ <tr>
+ <td>&nbsp;Major ID:&nbsp;&nbsp;</td>
+ <td><input type="text" name="major_id" size="3" />
+ </td>
+ </tr>
+ <tr>
+ <td>&nbsp;Student Type:&nbsp;&nbsp;</td>
+ <td><input type="text" name="student_type" size="5" />
+ </td>
+ </tr>
+ </table>
+ <p> <br />
+ <hr />
+ <p>
+ <input type="submit" value="Add New Student" />
+ <input type="reset" value="Reset Values" />
+ </p>
+</form>
+<br />
+<hr />
+
+<p class = "footer"> <a href = "navMenu.html"> Return to Navigation Menu </a> </p>
+<hr />
+
+</body>
+</html>
